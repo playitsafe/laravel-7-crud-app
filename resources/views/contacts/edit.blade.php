@@ -44,6 +44,7 @@
         <label for="job_title">Job Title:</label>
         <input type="text" class="form-control" name="job_title" value={{ $contact->job_title }} />
       </div>
+      <a class="btn btn-outline-info" href="{{ route('contacts.index') }}">Go Back</a>
       <button type="submit" class="btn btn-primary">Update</button>
     </form>
   </div>
